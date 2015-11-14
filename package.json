@@ -1,0 +1,25 @@
+{
+  "name": "saucier-test",
+  "version": "1.0.0",
+  "description": "Test application for Saucier Version 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp dust; DEBUG=saucier:* nodemon app.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-dust": "^2.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-wrap": "^0.11.0"
+  },
+  "dependencies": {
+    "dustjs-helpers": "^1.7.2",
+    "dustjs-linkedin": "^2.7.2",
+    "saucier-core": "^2.0.1",
+    "saucier-cache": "^0.1.0",
+    "saucier-get": "^0.1.0"
+  }
+}
